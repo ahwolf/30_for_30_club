@@ -1,4 +1,4 @@
-30_for_30_club
-==============
+3d_chicago_energy
+=================
 
-Repo for the data visualization for the 30-30-30 workouts
+Using three.js and d3.js to render Chicago energy data

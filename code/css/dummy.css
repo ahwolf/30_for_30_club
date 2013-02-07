@@ -1,0 +1,87 @@
+.x_axis path,.x_axis line,.y_axis path,.y_axis line{
+    fill:none;
+    stroke:black;
+    shape-rendering:crispEdges
+}
+.x_axis text,.y_axis text{
+    font-family:georgia;
+    font-size:13px
+}
+.holder{
+    float:left;
+    margin-left:12px;
+    margin-right:0px;
+    font-family:MuseoSlab500;
+    font-size:10px
+}
+.holder h3{
+    margin-left:2px;
+    margin-top:8px;
+    margin-bottom:8px;
+    font-size:14px
+}
+.holder input[type="radio"]{
+    display:none
+}
+.holder label{
+    display:block;
+    padding:3px;
+    margin:2px;
+    background:-webkit-linear-gradient(top, #bbbbbb, #999999);
+    border-radius:2px;
+}
+.holder input[type="radio"]:checked + label{
+    background:-webkit-linear-gradient(top, #666666, black);
+    color:#fff;
+    font-weight:normal;
+}
+.radio_holder{
+    width:295px;
+    margin-left:5px;
+    margin-right:10px;
+    height:140px;
+    display:inline-block;
+    background:-webkit-linear-gradient(top, #eeeeee, #dddddd);
+    box-shadow:3px 3px 2px 2px #bbb;
+}
+.axis_text{
+    font-size:20px;
+}
+#tooltip {
+    position: absolute;
+    height: auto;
+    width: 170px;
+    font-family: "RobotoRegular", sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color:rgba(10,10,10,0.7);
+    border-radius: 6px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+    pointer-events: none;
+    z-index:500;
+}
+#tooltip h3 {
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+#tooltip p {
+    padding-left: 20px;
+    padding-bottom: 3px;
+}
+.normal_path {
+    stroke: grey;
+    }
+.no_path {
+    stroke: none;
+}
+.hover_path {
+    stroke: white;
+    /* stroke-width: 2px; */
+    fill:blue;
+}
+#map {
+  width: 960px;
+  height: 500px;
+}
